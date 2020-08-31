@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Finite Element Model Optimization</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    float: center;
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: center;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    float: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: center;
+    padding: 20px;
+    width: 90%;
+    background-color: #f1f1f1;
+    height: auto; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    float: center;
+    content: "";
+    display: table;
+    clear: both;
+    width: 300px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav ul, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Experimental Articular Cartilage Strain Replication Using Finite Element Model Optimization</h2>
+</header>
+
+<section>
+
+<header>
+<embed src="Optimization.gif" width=90%>
+</header>  
+
+
+<center>
+<article>
+    <p><center>Fibril-reinforced poroviscoelastic model is employed to replicate experimental strain results from biomechanical testing. Model concordance to the experimental strain is achieved by optimizing model parameters that mirror real constituents of articular cartilage: initial and strain-dependent fibril network modulus (<i>E</i><sub>f</sub><sup>0</sup>, <i>E</i><sub>f</sub><sup>ε</sup>, respectively), nonfibrillar matrix modulus (<i>E</i><sub>nf</sub>), initial permeability (<i>k</i><sub>0</sub>) and strain-dependency of permeability (<i>M</i>).</center></p>
+</article>
+</center>
+
+</section>
+
+<footer>
+  <p><a href="http://luotain.uef.fi/?n=group&g=janne_makela"> (c) Janne T.A. Mäkelä, Department of Applied Physics, UEF, 2018</a></p>
+</footer>
+
+</body>
+</html>
+
